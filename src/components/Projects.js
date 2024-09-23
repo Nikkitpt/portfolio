@@ -30,7 +30,7 @@ export function Projects() {
                         <a href="https://github.com/Nikkitpt/chord-getter">Github Repo</a>
                     </p>
                     <p>
-                        <a href="nikkitpt.github.io/chord-getter/">Live Link</a>
+                        <a href="https://nikkitpt.github.io/chord-getter/">Live Link</a>
                     </p>
                 </Grid>
 
