@@ -20,7 +20,7 @@ export function Projects() {
             <Grid container >
             <Grid xs={12}>
                     <h2 sx={{ fontSize: '1.5rem', marginBottom: 1 }}>
-                        <a href="nikkitpt.github.io/chord-getter/">Chord Getter</a>
+                        <a href="https://nikkitpt.github.io/chord-getter/">Chord Getter</a>
                     </h2>
                     <p sx={{ paddingBottom: '200px', flex: '1', fontSize: '2rem' }}>
                         Stack: Python (Flask), JavaScript (React)  
@@ -36,7 +36,7 @@ export function Projects() {
 
                 <Grid xs={12}>
                     <h2 sx={{ fontSize: '1.5rem', marginBottom: 1 }}>
-                        <a href="nikkitpt.github.io/DefiSciFi/">DefiScifi</a>
+                        <a href="https://nikkitpt.github.io/DefiSciFi/">DefiScifi</a>
                         
                     </h2>
                     <p sx={{ paddingBottom: '200px', flex: '1', fontSize: '2rem' }}>
@@ -47,8 +47,7 @@ export function Projects() {
                         <a href="https://github.com/Nikkitpt/DefiSciFi">Github Repo</a>
                     </p>
                     <p>
-                        {/* <a href="braveheartsmoveny.org">Live Link</a> */}
-                        Live Link
+                        <a href="https://nikkitpt.github.io/DefiSciFi/">Live Link</a>
                     </p>
                 </Grid>
 
