@@ -36,8 +36,8 @@ export function Projects() {
 
                 <Grid xs={12}>
                     <h2 sx={{ fontSize: '1.5rem', marginBottom: 1 }}>
-                        {/* <a href="https://github.com/Nikkitpt/todo_pomodoro">DefiScifi</a> */}
-                        DefiScifi
+                        <a href="nikkitpt.github.io/DefiSciFi/">DefiScifi</a>
+                        
                     </h2>
                     <p sx={{ paddingBottom: '200px', flex: '1', fontSize: '2rem' }}>
                         Stack: Python (Flask), JavaScript (React)
@@ -71,7 +71,7 @@ export function Projects() {
                 </Grid>
                 <Grid xs={12}>
                     <h2 sx={{ fontSize: '1.5rem', marginBottom: 1 }}>
-                        <a href="https://braveheartsmoveny.org">Non Profit Website</a>
+                        <a href="https://braveheartsmoveny.org">Nonprofit Website</a>
                     </h2>
                     <p sx={{ paddingBottom: '200px', flex: '1', fontSize: '2rem' }}>
                         Stack: JavaScript. Html, Css
