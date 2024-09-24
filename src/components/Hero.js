@@ -1,17 +1,42 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import { useScroll, animated } from '@react-spring/web'
 import { useTrail, a } from '@react-spring/web';
 import styles from '../styles.module.css'
 import { Grid2 } from '@mui/material';
 
+// function Scroll() {
+//     const { scrollYProgress } = useScroll()
+  
+//     return (
+//       <animated.div style={{ opacity: scrollYProgress, marginBottom :"250px", color: "black" }}>
+//         Developer. Musician. Educator.
+//       </animated.div>
+//     )
+//   }
+
 function Scroll() {
-    const { scrollYProgress } = useScroll()
+    const [opacity, setOpacity] = useState(0);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setOpacity(1); // Set opacity to 1 after a delay
+      }, 500); // Adjust the delay to control the timing (in milliseconds)
+  
+      return () => clearTimeout(timer); // Cleanup the timeout on component unmount
+    }, []);
   
     return (
-      <animated.div style={{ opacity: scrollYProgress, marginBottom :"250px", color: "black" }}>
-        Developer. Musician. Educator.
+      <animated.div
+        style={{
+          opacity, // Opacity transitions from 0 to 1 over time
+          marginBottom: "250px",
+          color: "black",
+          transition: 'opacity 2s ease-in-out', // Transition effect for smooth fade-in
+        }}
+      >
+        Software Engineer. Musician.
       </animated.div>
-    )
+    );
   }
   
   
